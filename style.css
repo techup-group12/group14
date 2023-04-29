@@ -8,12 +8,18 @@
 }
 
 #foto1 {
-    width: 500px;
-    height: 500px;
+    width: 200px;
+    height: 200px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     padding: auto;
+}
+#foto1:hover{
+    width: 100px;
+    height: 100px;
+    margin: 100px 100px 100px 100px;
+    border-bottom: 10px solid blueviolet;
 }
 
 ul {
@@ -100,9 +106,19 @@ padding: 50px 100px;
     background-color: black;
     color: white;
 }
-.oo{
-color: white;
-background-color: black;
-padding: 10%;
 
+
+.gal{
+    width: max-content;
+    background-color: red;
+    padding: 10px 200px 0px 100px;
+    margin: 0px 0px 0px 100px;
+    border: 10px solid blue;
+}
+th:hover{
+    background-color: black;
+}
+.hasank:hover{
+    transition: 2s;
+    background-color: blue;
 }
